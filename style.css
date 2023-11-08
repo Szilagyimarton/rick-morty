@@ -7,7 +7,7 @@
 html{
   background-color: bisque;
 }
-div#root{
+div.characters{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,4 +30,13 @@ div.char h3{
 }
 div.char img{
   border-bottom: 2px solid black;
+}
+
+div.buttons {
+  margin: auto;
+  width: fit-content;
+}
+button{
+  padding: 10px;
+  margin-right: 5px;
 }
