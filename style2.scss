@@ -14,11 +14,13 @@ div.characters{
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  margin-left: 200px;
 }
 div.char{
   border: 2px solid black;
   h2, h3{
     text-align: center;
+    
   }
   h2{
     margin-top: 10px;
@@ -52,5 +54,19 @@ h1{
   text-align: center;
   margin: 20px;
   font-family: 'Roboto', sans-serif;
+  margin-left: 200px;
+
+}
+p#selected-card{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+
 
 }
